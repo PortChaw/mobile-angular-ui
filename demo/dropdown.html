@@ -11,12 +11,12 @@
             <a ui-turn-on='myDropdown' class='btn'>
               <i class="fa fa-ellipsis-v"></i>
             </a>
-            <ul 
+            <ul
               class="dropdown-menu"
               ui-outer-click="Ui.turnOff('myDropdown')"
               ui-outer-click-if="Ui.active('myDropdown')"
               role="menu"
-              ui-show="myDropdown" 
+              ui-show="myDropdown"
               ui-state="myDropdown"
               ui-turn-off="myDropdown">
 
@@ -28,6 +28,38 @@
             </ul>
           </div>
           <h3 class="panel-title">Note</h3>
+        </div>
+        <div class="panel-body">
+           {{lorem}}
+        </div>
+      </div>
+    </div>
+
+    <div class="section" ng-repeat="user in chatUsers">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="btn-group pull-right">
+            <a ui-turn-on='dropdown{{user.id}}' class='btn'>
+              <i class="fa fa-ellipsis-v"></i>
+            </a>
+            <ul
+              class="dropdown-menu"
+              ui-outer-click="Ui.turnOff('dropdown' + user.id)"
+              ui-outer-click-if="Ui.active('dropdown' + user.id)"
+              role="menu"
+              ui-show="dropdown{{user.id}}"
+              ui-state="dropdown{{user.id}}"
+              ui-turn-off="dropdown{{user.id}}">
+
+              <li><a>Action</a></li>
+              <li><a>Another action</a></li>
+              <li><a>Something else here</a></li>
+              <li class="divider"></li>
+              <li ng-if="user.online"><a>Sign out</a></li>
+              <li ng-if="!user.online"><a>Sign in</a></li>
+            </ul>
+          </div>
+          <h3 class="panel-title">{{user.name}}</h3>
         </div>
         <div class="panel-body">
            {{lorem}}
