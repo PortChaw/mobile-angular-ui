@@ -1277,15 +1277,12 @@ if (typeof define == 'function' && typeof define.amd == 'object' && define.amd) 
               return {
                 restrict: 'A',
                 compile: function(elem, attrs) {
-                  var fn = methodName === 'set' ?
-                    $parse(attrs[directiveName]) :
-                      function(scope) {
-                        return attrs[directiveName]; 
-                      };
 
                   return function(scope, elem, attrs) {
                     var callback = function() {
-                      var arg = fn(scope);
+                      var arg = methodName === 'set' ?
+                      $parse(attrs[directiveName])(scope) :
+                      attrs[directiveName];
                       return method.call(SharedState, arg);
                     };
                     uiBindEvent(scope, elem, attrs.uiTriggers, callback);
@@ -1451,6 +1448,7 @@ if (typeof define == 'function' && typeof define.amd == 'object' && define.amd) 
   ]);
 
 }());
+
 (function () {
   'use strict';
   angular.module('mobile-angular-ui.core', [
