@@ -17,7 +17,7 @@
       link: function(scope, elem, attrs) {
         var exclusionGroup        =  attrs.exclusionGroup,
             command               =  attrs.toggle || 'toggle',
-            bubble                =  scope.$eval(attrs.bubble),
+            bubble                =  attrs.bubble !== undefined && attrs.bubble !== 'false',
             activeClass           =  attrs.activeClass,
             inactiveClass         =  attrs.inactiveClass,
             parentActiveClass     =  attrs.parentActiveClass,
@@ -112,5 +112,23 @@
         SharedState.initialize(scope, id, {defaultValue: defaultValue, exclusionGroup: exclusionGroup});
       }
     };    
+  }]);
+
+  module.run(['$rootScope', 'SharedState', function($rootScope, SharedState) {
+
+    $rootScope.toggle = function(target, command) {
+      if (command === 'on') {
+        SharedState.turnOn(target);
+      } else if (command === 'off') {
+        SharedState.turnOff(target);
+      } else {
+        SharedState.toggle(target);
+      }
+    };
+
+    // $rootScope.toggleByClass = function(target, command) {
+    //  // Not supported 
+    // };
+
   }]);
 }());
