@@ -4237,7 +4237,7 @@ output {
   color: #464545;
   background-color: #ffffff;
   background-image: none;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #464545;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -4768,14 +4768,14 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
   color: #ffffff;
   background-color: #375a7f;
-  border-color: #375a7f;
+  border-color: #ffffff;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
   color: #ffffff;
   background-color: #28415b;
-  border-color: #101b26;
+  border-color: #bfbfbf;
 }
 
 .btn-primary:active,
@@ -4783,7 +4783,7 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
   background-color: #28415b;
-  border-color: #253c54;
+  border-color: #e0e0e0;
 }
 
 .btn-primary:active:focus,
@@ -4794,7 +4794,7 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary.focus {
   color: #ffffff;
   background-color: #1d2f43;
-  border-color: #101b26;
+  border-color: #bfbfbf;
 }
 
 .btn-primary:active,
@@ -4819,7 +4819,7 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
   background-color: #375a7f;
-  border-color: #375a7f;
+  border-color: #ffffff;
 }
 
 .btn-primary .badge {
@@ -6103,7 +6103,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-text {
-  color: #777777;
+  color: #ffffff;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -8321,7 +8321,7 @@ input[type="url"] {
 .form-control {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #464545;
 }
 
 .form-group {
@@ -8374,7 +8374,7 @@ input[type="url"] {
 .btn-group > .btn-default.active:focus {
   color: #ffffff;
   background-color: #375a7f;
-  border-color: #375a7f;
+  border-color: #ffffff;
 }
 
 .list-group-item,
@@ -8454,7 +8454,7 @@ a.list-group-item .icon.pull-right {
   background: #375a7f;
   border-width: 1px;
   border-style: solid;
-  color: #777777;
+  color: #ffffff;
 }
 
 .navbar-app .btn-icon-only .fa,
@@ -8800,7 +8800,7 @@ ui-switch {
   width: 90px;
   height: 45px;
   background-color: #ffffff;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #464545;
   border-radius: 999px;
 }
 
@@ -8818,7 +8818,7 @@ ui-switch {
   width: 45px;
   height: 45px;
   background-color: #ffffff;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #464545;
   border-radius: 999px;
 }
 
