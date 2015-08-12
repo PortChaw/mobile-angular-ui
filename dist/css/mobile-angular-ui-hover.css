@@ -124,7 +124,7 @@ fieldset[disabled] .btn-default:hover {
 .btn-primary:hover {
   color: #ffffff;
   background-color: #28415b;
-  border-color: #253c54;
+  border-color: #e0e0e0;
 }
 
 .btn-primary:active:hover,
@@ -132,14 +132,14 @@ fieldset[disabled] .btn-default:hover {
 .open > .dropdown-toggle.btn-primary:hover {
   color: #ffffff;
   background-color: #1d2f43;
-  border-color: #101b26;
+  border-color: #bfbfbf;
 }
 
 .btn-primary.disabled:hover,
 .btn-primary[disabled]:hover,
 fieldset[disabled] .btn-primary:hover {
   background-color: #375a7f;
-  border-color: #375a7f;
+  border-color: #ffffff;
 }
 
 .btn-success:hover {
@@ -635,7 +635,7 @@ button.list-group-item-danger.active:hover {
 .btn-group > .btn-default.active:hover {
   color: #ffffff;
   background-color: #375a7f;
-  border-color: #375a7f;
+  border-color: #ffffff;
 }
 
 .navbar-app .btn-navbar:hover,

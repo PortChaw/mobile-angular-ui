@@ -2,11 +2,28 @@
 @import "bootstrap/less/variables.less";
 
 // Bootstrap Overrides
-@brand-primary: #007aff;
-@brand-success: #4cd964;
-@brand-warning: #fc0;
-@brand-danger: #ff3b30;
-@brand-info: #34aadc;
+//@brand-primary: #007aff;
+//@brand-success: #4cd964;
+//@brand-warning: #fc0;
+//@brand-danger: #ff3b30;
+//@brand-info: #34aadc;
+//== Darkly Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+@gray-base:              #000;
+@gray-darker:            lighten(@gray-base, 13.5%); // #222
+@gray-dark:              #303030;   // #333
+@gray:                   #464545;
+@gray-light:             #999;   // #999
+@gray-lighter:           #EBEBEB; // #eee
+
+@brand-primary:         #375a7f;
+@brand-success:         #00bc8c;
+@brand-info:            #3498DB;
+@brand-warning:         #F39C12;
+@brand-danger:          #E74C3C;
+
 
 @headings-font-family:    @font-family-base;
 @headings-font-weight:    normal;
@@ -51,6 +68,7 @@
 @switch-active-color: @brand-primary;
 @zindex-switch-handle: 2;
 @switch-border-radius: 999px;
+
 @switch-handle-border-radius: @switch-border-radius;
 
 // Navbars
@@ -262,7 +280,7 @@
 
 @btn-primary-color:              #fff;
 @btn-primary-bg:                 @brand-primary;
-@btn-primary-border:             @btn-primary-bg;
+@btn-primary-border:             @btn-primary-color;
 
 @btn-success-color:              @btn-primary-color;
 @btn-success-bg:                 @brand-success;
@@ -300,7 +318,7 @@
 //** Text color for `<input>`s
 @input-color:                    @gray;
 //** `<input>` border color
-@input-border:                   #f1f1f1;
+@input-border:                   @gray;
 
 // TODO: Rename `@input-border-radius` to `@input-border-radius-base` in v4
 //** Default `.form-control` border radius
@@ -476,7 +494,7 @@
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 @navbar-collapse-max-height:       340px;
 
-@navbar-default-color:             #777;
+@navbar-default-color:             #fff;
 @navbar-default-bg:                @brand-primary;
 @navbar-default-border:            transparent;
 
