@@ -4221,7 +4221,7 @@ input[type="checkbox"]:focus {
 
 output {
   display: block;
-  padding-top: 11px;
+  padding-top: 7px;
   font-size: 15px;
   line-height: 1.42857143;
   color: #464545;
@@ -4230,8 +4230,8 @@ output {
 .form-control {
   display: block;
   width: 100%;
-  height: 45px;
-  padding: 10px 15px;
+  height: 37px;
+  padding: 6px 12px;
   font-size: 15px;
   line-height: 1.42857143;
   color: #464545;
@@ -4362,8 +4362,8 @@ fieldset[disabled] .checkbox label {
 }
 
 .form-control-static {
-  padding-top: 11px;
-  padding-bottom: 11px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   margin-bottom: 0;
   min-height: 36px;
 }
@@ -4467,7 +4467,7 @@ select[multiple].input-lg {
 }
 
 .has-feedback .form-control {
-  padding-right: 56.25px;
+  padding-right: 46.25px;
 }
 
 .form-control-feedback {
@@ -4476,9 +4476,9 @@ select[multiple].input-lg {
   right: 0;
   z-index: 2;
   display: block;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
   text-align: center;
   pointer-events: none;
 }
@@ -4625,12 +4625,12 @@ select[multiple].input-lg {
 .form-horizontal .checkbox-inline {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 11px;
+  padding-top: 7px;
 }
 
 .form-horizontal .radio,
 .form-horizontal .checkbox {
-  min-height: 32px;
+  min-height: 28px;
 }
 
 .form-horizontal .form-group {
@@ -4653,7 +4653,7 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
-  padding: 10px 15px;
+  padding: 6px 12px;
   font-size: 15px;
   line-height: 1.42857143;
   border-radius: 4px;
@@ -5631,7 +5631,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .input-group-addon {
-  padding: 10px 15px;
+  padding: 6px 12px;
   font-size: 15px;
   font-weight: normal;
   line-height: 1;
@@ -6040,8 +6040,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 7.5px;
-  margin-bottom: 7.5px;
+  margin-top: 11.5px;
+  margin-bottom: 11.5px;
 }
 
 @media (max-width: 767px) {
@@ -6069,8 +6069,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-btn {
-  margin-top: 7.5px;
-  margin-bottom: 7.5px;
+  margin-top: 11.5px;
+  margin-bottom: 11.5px;
 }
 
 .navbar-btn.btn-sm {
@@ -8334,7 +8334,7 @@ input[type="url"] {
 }
 
 .control-label {
-  line-height: 45px;
+  line-height: 37px;
   margin: 0;
 }
 
@@ -8714,7 +8714,7 @@ a.list-group-item .icon.pull-right {
 }
 
 .app-search + .scrollable {
-  padding-top: 45px;
+  padding-top: 37px;
 }
 
 input.ng-invalid,
@@ -8736,7 +8736,7 @@ a.panel-heading {
 
 .panel-heading > .btn,
 .panel-heading > .btn-group > .btn {
-  margin-top: -12px;
+  margin-top: -8px;
   margin-right: -15px;
 }
 
@@ -8797,8 +8797,8 @@ ui-switch {
   cursor: pointer;
   position: relative;
   display: block;
-  width: 90px;
-  height: 45px;
+  width: 74px;
+  height: 37px;
   background-color: #ffffff;
   border: 1px solid #464545;
   border-radius: 999px;
@@ -8815,8 +8815,8 @@ ui-switch {
   top: -1px;
   left: -1px;
   z-index: 2;
-  width: 45px;
-  height: 45px;
+  width: 37px;
+  height: 37px;
   background-color: #ffffff;
   border: 1px solid #464545;
   border-radius: 999px;
@@ -8829,10 +8829,10 @@ ui-switch {
 
 .switch.active .switch-handle {
   border-color: #375a7f;
-  -webkit-transform: translate(45px, 0);
-  -ms-transform: translate(45px, 0);
-  -o-transform: translate(45px, 0);
-  transform: translate(45px, 0);
+  -webkit-transform: translate(37px, 0);
+  -ms-transform: translate(37px, 0);
+  -o-transform: translate(37px, 0);
+  transform: translate(37px, 0);
 }
 
 .switch-transition-enabled {
