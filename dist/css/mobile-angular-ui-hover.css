@@ -209,6 +209,7 @@ fieldset[disabled] .btn-warning:hover {
   color: #ffffff;
   background-color: #d62c1a;
   border-color: #000000;
+
 }
 
 .btn-danger:active:hover,
@@ -249,7 +250,7 @@ fieldset[disabled] .btn-link:hover {
 }
 
 .dropdown-menu > .active > a:hover {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   outline: 0;
   background-color: #375a7f;
@@ -462,7 +463,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 }
 
 a.label:hover {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -492,7 +493,7 @@ a.label:hover {
 }
 
 a.badge:hover {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -601,26 +602,10 @@ button.list-group-item-danger.active:hover {
 
 .carousel-control:hover {
   outline: 0;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   opacity: 0.9;
   filter: alpha(opacity=90);
-}
-
-@media (max-width: 767px) {
-
-}
-
-@media (max-width: 767px) {
-
-}
-
-@media (max-width: 767px) {
-
-}
-
-@media (max-width: 767px) {
-
 }
 
 @media (max-width: 767px) {
